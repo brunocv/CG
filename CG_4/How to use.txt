@@ -1,0 +1,24 @@
+WINDOWS GENERATOR:
+	
+	1. Ficheiro não se encontra compilado por motivos de diretorias (cmake), para isso é necessário compilar primeiro no 		 	cmake e depois no VS compilar em 'Release' (foi usado Visual Studio).
+	
+	2.Uma vez compilado basta ir pela linha de comandos (cmd) até à pasta do CG_generator\build\Release, lá encontrará o 			executável generator.exe.
+	
+	3. Para correr basta introduzir o executável, a figura que quer criar, suas dimensões e o ficheiro onde guarda.
+	
+	4. Por exemplo generator.exe plane 50 ..\..\..\Fig_files\plane.txt.
+
+
+
+WINDOWS ENGINE:
+
+	1. Ficheiro não se encontra compilado por motivos de diretorias (cmake), para isso é necessário compilar primeiro no 			cmake e depois no VS compilar em 'Release' (foi usado Visual Studio).
+
+	2. Depois de compilado, vá à pasta Engine\build\Release e coloque os ficheiros glut32.dll e glew32.dll que se encontrará em Engine\build 		caso tenha introduzido a diretoria do toolkits certa.
+
+	3. Para correr basta dizer engine.exe ..\..\..\Fig_files\files.xml, caso queira introduzir os seus ficheiros em files.xml 		precisa de indicar o path desde a pasta Release até à pasta do ficheiro, ou para contornar isto basta meter todos os 		ficheiros na pasta Release, assim o Windows saberá onde encontrar.
+
+	4. Tecla 'J' para para afastar do referencial, tecla 'K' para aproximar, "WASD" para mover.
+
+
+	

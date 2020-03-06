@@ -1,0 +1,195 @@
+<scene>
+
+  <group>
+    <rotate time="10" axisX="0" axisY="1" axisZ="0"/>
+    <scale X="70" Y="70" Z="70"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <rotate time="3" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.0009">
+      <point X="0.000000" Y="0" Z="200.000000"/>
+      <point X="141.421356" Y="0" Z="141.421356"/>
+      <point X="200.000000" Y="0" Z="0.000000"/>
+      <point X="141.421356" Y="0" Z="-141.421356"/>
+      <point X="0.000000" Y="0" Z="-200.000000"/>
+      <point X="-141.421356" Y="0" Z="-141.421356"/>
+      <point X="-200.000000" Y="0" Z="0.000000"/>
+      <point X="-141.421356" Y="0" Z="141.421356"/>
+    </translate>
+    <scale X="12" Y="12" Z="12"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <rotate time="5" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.0007">
+      <point X="0.000000" Y="0" Z="350.000000"/>
+      <point X="247.487373" Y="0" Z="247.487373"/>
+      <point X="350.000000" Y="0" Z="0.000000"/>
+      <point X="247.487373" Y="0" Z="-247.487373"/>
+      <point X="0.000000" Y="0" Z="-350.000000"/>
+      <point X="-247.487373" Y="0" Z="-247.487373"/>
+      <point X="-350.000000" Y="0" Z="0.000000"/>
+      <point X="-247.487373" Y="0" Z="247.487373"/>
+    </translate>
+    <scale X="18" Y="18" Z="18"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <rotate time="2" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.0006">
+      <point X="0.000000" Y="0" Z="500.000000"/>
+      <point X="353.553391" Y="0" Z="353.553391"/>
+      <point X="500.000000" Y="0" Z="0.000000"/>
+      <point X="353.553391" Y="0" Z="-353.553391"/>
+      <point X="0.000000" Y="0" Z="-500.000000"/>
+      <point X="-353.553391" Y="0" Z="-353.553391"/>
+      <point X="-500.000000" Y="0" Z="0.000000"/>
+      <point X="-353.553391" Y="0" Z="353.553391"/>
+    </translate>
+    <scale X="25" Y="25" Z="25"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+    <group>
+      <rotate time="1" axisX="0" axisY="1" axisZ="0"/>
+      <translate time="0.0010">
+        <point X="0.000000" Y="0" Z="3.000000"/>
+        <point X="2.121320" Y="0" Z="2.121320"/>
+        <point X="3.000000" Y="0" Z="0.000000"/>
+        <point X="2.121320" Y="0" Z="-2.121320"/>
+        <point X="0.000000" Y="0" Z="-3.000000"/>
+        <point X="-2.121320" Y="0" Z="-2.121320"/>
+        <point X="-3.000000" Y="0" Z="0.000000"/>
+        <point X="-2.121320" Y="0" Z="2.121320"/>
+      </translate>
+      <scale X="0.20" Y="0.20" Z="0.20"/>
+      <models>
+        <model file="..\..\..\Fig_files\sphere.txt" />
+      </models>
+    </group>
+  </group>
+
+  <group>
+    <rotate time="2" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.0002">
+      <point X="0.000000" Y="0" Z="700.000000"/>
+      <point X="494.974747" Y="0" Z="494.974747"/>
+      <point X="700.000000" Y="0" Z="0.000000"/>
+      <point X="494.974747" Y="0" Z="-494.974747"/>
+      <point X="0.000000" Y="0" Z="-700.000000"/>
+      <point X="-494.974747" Y="0" Z="-494.974747"/>
+      <point X="-700.000000" Y="0" Z="0.000000"/>
+      <point X="-494.974747" Y="0" Z="494.974747"/>
+    </translate>
+    <scale X="22" Y="22" Z="22"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <rotate time="1" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.0001">
+      <point X="0.000000" Y="0" Z="850.000000"/>
+      <point X="601.040764" Y="0" Z="601.040764"/>
+      <point X="850.000000" Y="0" Z="0.000000"/>
+      <point X="601.040764" Y="0" Z="-601.040764"/>
+      <point X="0.000000" Y="0" Z="-850.000000"/>
+      <point X="-601.040764" Y="0" Z="-601.040764"/>
+      <point X="-850.000000" Y="0" Z="0.000000"/>
+      <point X="-601.040764" Y="0" Z="601.040764"/>
+    </translate>
+    <scale X="35" Y="35" Z="35"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <rotate time="1" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.000099">
+      <point X="0.000000" Y="0" Z="1050.000000"/>
+      <point X="742.462120" Y="0" Z="742.462120"/>
+      <point X="1050.000000" Y="0" Z="0.000000"/>
+      <point X="742.462120" Y="0" Z="-742.462120"/>
+      <point X="0.000000" Y="0" Z="-1050.000000"/>
+      <point X="-742.462120" Y="0" Z="-742.462120"/>
+      <point X="-1050.000000" Y="0" Z="0.000000"/>
+      <point X="-742.462120" Y="0" Z="742.462120"/>
+    </translate>
+    <scale X="27" Y="27" Z="27"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+    <group>
+      <rotate time="2" axisX="0" axisY="1" axisZ="0"/>
+      <models>
+          <model file="..\..\..\Fig_files\disk.txt" />
+        </models>
+    </group>
+  </group>
+
+  <group>
+    <rotate time="1" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.00008">
+      <point X="0.000000" Y="0" Z="1250.000000"/>
+      <point X="883.883476" Y="0" Z="883.883476"/>
+      <point X="1250.000000" Y="0" Z="0.000000"/>
+      <point X="883.883476" Y="0" Z="-883.883476"/>
+      <point X="0.000000" Y="0" Z="-1250.000000"/>
+      <point X="-883.883476" Y="0" Z="-883.883476"/>
+      <point X="-1250.000000" Y="0" Z="0.000000"/>
+      <point X="-883.883476" Y="0" Z="883.883476"/>
+    </translate>
+    <scale X="28" Y="28" Z="28"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <rotate time="2" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.00007">
+      <point X="0.000000" Y="0" Z="1400.000000"/>
+      <point X="989.949494" Y="0" Z="989.949494"/>
+      <point X="1400.000000" Y="0" Z="0.000000"/>
+      <point X="989.949494" Y="0" Z="-989.949494"/>
+      <point X="0.000000" Y="0" Z="-1400.000000"/>
+      <point X="-989.949494" Y="0" Z="-989.949494"/>
+      <point X="-1400.000000" Y="0" Z="0.000000"/>
+      <point X="-989.949494" Y="0" Z="989.949494"/>
+    </translate>
+    <scale X="26" Y="26" Z="26"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <translate time="0.00005">
+      <point X="0"  Y="0.000000" Z="1000.000000"/>
+      <point X="0" Y="707.106781" Z="707.106781"/>
+      <point X="0" Y="1000.000000" Z="0.000000"/>
+      <point X="0" Y="707.106781" Z="-707.106781"/>
+      <point X="0" Y="0.000000" Z="-1000.000000"/>
+      <point X="0" Y="-707.106781" Z="-707.106781"/>
+      <point X="0" Y="-1000.000000" Z="0.000000"/>
+      <point X="0" Y="-707.106781" Z="707.106781"/>
+    </translate>
+    <scale X="20" Y="20" Z="20"/>
+    <models>
+      <model file="..\..\..\Fig_files\teapot.txt" />
+    </models>
+  </group>
+  
+</scene>

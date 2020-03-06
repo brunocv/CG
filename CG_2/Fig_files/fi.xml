@@ -1,0 +1,10 @@
+<scene>
+  <group>
+    <scale X="5" Y="5" Z="5"/>
+    <models>
+      <model file="..\..\..\Fig_files\disk.txt" />
+    </models>
+  </group>
+  
+  </scene>
+

@@ -1,0 +1,88 @@
+<scene>
+  <group>
+    <scale X="70" Y="70" Z="70"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <scale X="12" Y="12" Z="12"/>
+    <translate Z="250" />
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <translate Z="400" />
+    <scale X="18" Y="18" Z="18"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+ 
+  <group>
+    <translate Z="550" />
+    <scale X="25" Y="25" Z="25"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+    <group>
+      <translate X="-3" />
+      <scale X="0.20" Y="0.20" Z="0.20"/>
+      <models>
+        <model file="..\..\..\Fig_files\sphere.txt" />
+      </models>
+    </group>
+  </group>
+
+  <group>
+    <translate Z="700" />
+    <scale X="22" Y="22" Z="22"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <translate Z="850" />
+    <scale X="35" Y="35" Z="35"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+  <group>
+    <translate Z="1050" />
+    <scale X="27" Y="27" Z="27"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+    <group>
+      <rotate angle="60" axisX="1" axisY="1" axisZ="0"/>
+      <models>
+        <model file="..\..\..\Fig_files\disk.txt" />
+      </models>
+    </group>
+  </group>
+  
+  <group>
+    <translate Z="1250" />
+    <scale X="28" Y="28" Z="28"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+
+
+  <group>
+    <translate Z="1400" />
+    <scale X="26" Y="26" Z="26"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" />
+    </models>
+  </group>
+  
+  </scene>
+

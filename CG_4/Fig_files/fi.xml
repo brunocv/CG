@@ -1,0 +1,33 @@
+<scene>
+  <lights>
+    <light type="POINT" posX="10" posY="30" />
+    <light type="DIRECTIONAL" dirX="40" dirZ="50"/>
+    <light type="SPOT" posX="4" posY="5" posZ="100" dirX="40" dirY="10" dirZ="4" theta="60" alpha="10"/>
+    <light type="POINT" posX="3" posY="4"/>
+  </lights>
+    <group>
+      <rotate time="10" axisX="0" axisY="1" axisZ="0"/>
+      <scale X="70" Y="70" Z="70"/>
+      <models>
+        <model file="..\..\..\Fig_files\sphere.txt" texture="..\..\..\Fig_files\sun.jpg" />
+      </models>
+    </group>
+
+  <group>
+    <rotate time="3" axisX="0" axisY="1" axisZ="0"/>
+    <translate time="0.0009">
+      <point X="0.000000" Y="0" Z="200.000000"/>
+      <point X="141.421356" Y="0" Z="141.421356"/>
+      <point X="200.000000" Y="0" Z="0.000000"/>
+      <point X="141.421356" Y="0" Z="-141.421356"/>
+      <point X="0.000000" Y="0" Z="-200.000000"/>
+      <point X="-141.421356" Y="0" Z="-141.421356"/>
+      <point X="-200.000000" Y="0" Z="0.000000"/>
+      <point X="-141.421356" Y="0" Z="141.421356"/>
+    </translate>
+    <scale X="12" Y="12" Z="12"/>
+    <models>
+      <model file="..\..\..\Fig_files\sphere.txt" texture="..\..\..\Fig_files\earth.jpg" />
+    </models>
+  </group>
+</scene>

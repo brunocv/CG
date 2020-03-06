@@ -1,0 +1,6 @@
+<scene>
+  <model>..\..\..\Fig_files\plane.txt</model>
+  <model>..\..\..\Fig_files\cone.txt</model>
+  <model>..\..\..\Fig_files\box.txt</model>
+  <model>..\..\..\Fig_files\sphere.txt</model>
+</scene> 
